@@ -1,0 +1,139 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #898f99;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 600 12px 15px "Montserrat", sans-serif;
+}
+
+h1 {
+  font: 600 48px 59px "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  color: #0ec8cb;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.h1__about {
+  max-width: 528px;
+  margin-bottom: 90px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+table {
+	border-collapse: collapse;
+	}
+
+.row__column {
+  max-width: 240px;
+  padding: 50px 35px 75px;
+  background: #f7f7f7;
+}
+
+.row__column:hover {
+	background: #0ec8cb;
+	cursor: pointer;
+}
+
+.row__img {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+  margin-bottom: 60px;
+}
+
+.row__column:hover .anchor__img{
+	background: url(images/anchor_hover.png) center center no-repeat;
+}
+
+.row__column:hover  .sub__title, .row__column:hover  .text{
+		color: white;
+}
+
+.row__column:hover .diamant__img{
+	background: url(images/diamond_hover.png) center center no-repeat;
+}
+
+.row__column:hover .glasses__img{
+	background: url(images/glasses_hover.png) center center no-repeat;
+}
+
+.row__column:hover .monitor__img{
+	background: url(images/monitor_hover.png) center center no-repeat;
+}
+
+.anchor__img{
+	background: url(images/anchor.png) center center no-repeat;
+}
+
+.diamant__img{
+	background: url(images/diamondstone.png) center center no-repeat;
+}
+
+.glasses__img{
+	background: url(images/glasses.png) center center no-repeat;
+}
+
+.monitor__img{
+	background: url(images/monitor.png) center center no-repeat;
+}
+
+.sub__title {
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1b1b1b;
+}
+
+.sub__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1b1b1b;
+}
+
+.text {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+}
